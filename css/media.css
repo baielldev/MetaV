@@ -67,7 +67,7 @@
   }
   .main img {
     width: 100%;
-    max-width: 340px;
+    max-width: 500px;
   }
   .main-btn button:first-child {
     padding: 9px 15px;
@@ -106,6 +106,12 @@
   }
   .main-rating {
     width: 65%;
+  }
+}
+
+@media (max-width: 500px) {
+  .main-rating {
+    width: 80%;
   }
 }
 
