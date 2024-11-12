@@ -16,6 +16,14 @@
   .main img {
     max-width: 450px;
   }
+
+  .plan img {
+    max-width: 600px;
+  }
+
+  #img1 {
+    display: none;
+  }
 }
 
 @media (max-width: 885px) {
@@ -90,6 +98,10 @@
     border: 1px solid #d10ed1;
     padding: 9px 15px;
   }
+
+  .plan img {
+    max-width: 500px;
+  }
 }
 @media (max-width: 717px) {
   .burger-menu {
@@ -119,6 +131,11 @@
   .main-rating {
     width: 65%;
   }
+
+  .footer {
+    flex-direction: column;
+    gap: 25px;
+  }
 }
 
 @media (max-width: 654px) {
@@ -131,11 +148,22 @@
     width: 100%;
     max-width: 350px;
   }
+
+  .plan img {
+    width: 100%;
+    max-width: 350px;
+  }
 }
 
 @media (max-width: 500px) {
   .main-rating {
     width: 80%;
+  }
+}
+
+@media (max-width: 437px) {
+  .footer-text {
+    gap: 60px;
   }
 }
 
@@ -156,6 +184,11 @@
 
   .container {
     padding-inline: 25px;
+  }
+
+  .work .box img {
+    width: 100%;
+    max-width: 370px;
   }
 }
 
