@@ -113,6 +113,7 @@
 
   .main {
     flex-direction: column-reverse;
+    align-items: center;
   }
 
   .main img {
@@ -183,7 +184,7 @@
   }
 
   .container {
-    padding-inline: 25px;
+    padding-inline: 20px;
   }
 
   .work .box img {
