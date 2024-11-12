@@ -191,6 +191,9 @@
     width: 100%;
     max-width: 370px;
   }
+  .main-btn {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 375px) {
@@ -205,5 +208,8 @@
 @media (max-width: 341px) {
   .main-rating {
     width: 100%;
+  }
+  .main-btn {
+    justify-content: center;
   }
 }
