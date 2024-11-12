@@ -91,7 +91,9 @@ button {
   font-size: clamp(1.5rem, 1.125rem + 1.88vw, 2.625rem);
 }
 .main-content h1 span {
-  color: rgb(183, 93, 189);
+  background-image: linear-gradient(97.16deg, #f86cf8 12.04%, #64cef5 81.84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .main-btn {
@@ -156,6 +158,11 @@ button {
 .visual-content h1 {
   font-size: clamp(1.5rem, 1.125rem + 1.88vw, 2.625rem);
 }
+.visual-content h1 span {
+  background-image: linear-gradient(97.16deg, #f86cf8 12.04%, #64cef5 81.84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .visual-content button {
   background: linear-gradient(97.16deg, #d10ed1 12.04%, #10a3da 81.84%);
   padding: 12px 20px;
@@ -181,6 +188,11 @@ button {
 }
 .work-title h1 {
   font-size: clamp(1.5rem, 1.125rem + 1.88vw, 2.625rem);
+}
+.work-title h1 span {
+  background-image: linear-gradient(97.16deg, #f86cf8 12.04%, #64cef5 81.84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .work-title p {
   max-width: 520px;
@@ -265,9 +277,12 @@ button {
   gap: 20px;
 }
 .footer-logo h1 {
-  color: #8b44db;
   font-size: 38px;
+  background-image: linear-gradient(97.16deg, #f86cf8 12.04%, #64cef5 81.84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
 .footer-logo p {
   font-size: 15px;
   color: rgba(255, 255, 255, 0.8);

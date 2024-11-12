@@ -179,10 +179,6 @@
     padding: 12px 28px;
   }
 
-  .main-rating {
-    width: 75%;
-  }
-
   .container {
     padding-inline: 20px;
   }
@@ -194,9 +190,6 @@
   .main-btn {
     justify-content: center;
   }
-}
-
-@media (max-width: 375px) {
   .main-rating {
     width: 100%;
   }
@@ -205,7 +198,7 @@
   }
 }
 
-@media (max-width: 341px) {
+@media (max-width: 375px) {
   .main-rating {
     width: 100%;
   }
