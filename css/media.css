@@ -180,7 +180,7 @@
   #vector3 {
     position: absolute;
     top: 40px;
-    right: 0;
+    right: -15px;
   }
   #main {
     padding-block: 25px;
