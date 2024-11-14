@@ -160,6 +160,37 @@
   .main-rating {
     width: 80%;
   }
+  .container {
+    padding-inline: 20px;
+  }
+
+  .main {
+    position: relative;
+  }
+
+  #vector1 {
+    position: absolute;
+    top: 130px;
+  }
+  #vector2 {
+    position: absolute;
+    top: 0;
+    left: 130px;
+  }
+  #vector3 {
+    position: absolute;
+    top: 40px;
+    right: 0;
+  }
+  #main {
+    padding-block: 25px;
+  }
+  #visual {
+    padding-block: 25px;
+  }
+  #work {
+    padding-block: 30px;
+  }
 }
 
 @media (max-width: 437px) {
@@ -177,10 +208,6 @@
     background: none;
     border: 1px solid #d10ed1;
     padding: 12px 28px;
-  }
-
-  .container {
-    padding-inline: 20px;
   }
 
   .work .box img {
