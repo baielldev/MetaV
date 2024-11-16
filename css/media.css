@@ -154,6 +154,9 @@
     width: 100%;
     max-width: 450px;
   }
+  .main-content h1 {
+    text-align: center;
+  }
 }
 
 @media (max-width: 500px) {
