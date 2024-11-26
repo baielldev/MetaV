@@ -198,6 +198,24 @@
   #work {
     padding-block: 30px;
   }
+  .main img {
+    max-width: 420px;
+  }
+  .slide {
+    overflow-x: auto;
+    gap: 0;
+    align-items: center;
+  }
+  .slide img {
+    width: 100%;
+    max-width: 700px;
+  }
+  .slide img:last-child {
+    display: none;
+  }
+  .slide img:first-child {
+    animation-play-state: paused;
+  }
 }
 
 @media (max-width: 437px) {
@@ -208,8 +226,12 @@
     justify-content: center;
   }
   .work .box img {
-    width: 100%;
     max-width: 450px;
+  }
+
+  .main img {
+    width: 100%;
+    max-width: 390px;
   }
 }
 
@@ -233,6 +255,10 @@
   .main-btn {
     justify-content: center;
   }
+  .main img {
+    width: 100%;
+    max-width: 310px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -241,5 +267,9 @@
   }
   .main-btn {
     justify-content: center;
+  }
+  .main img {
+    width: 100%;
+    max-width: 300px;
   }
 }
