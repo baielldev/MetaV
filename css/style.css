@@ -261,6 +261,29 @@ button {
   align-items: center;
 }
 
+.slide {
+  overflow-x: hidden;
+  display: flex;
+  gap: 150px;
+}
+.slide img:first-child {
+  animation: img06 20s infinite ease-in-out;
+}
+@keyframes img06 {
+  0% {
+    margin-left: 1%;
+    width: 100%;
+  }
+  50% {
+    margin-left: -50%;
+    width: 100%;
+  }
+  100% {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 #footer {
   padding-block: 80px;
   background: rgba(9, 8, 35, 1);

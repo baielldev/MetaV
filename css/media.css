@@ -157,6 +157,10 @@
   .main-content h1 {
     text-align: center;
   }
+  .main img {
+    max-width: 450px;
+    width: 100%;
+  }
 }
 
 @media (max-width: 500px) {
